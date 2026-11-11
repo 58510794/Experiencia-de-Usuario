@@ -20,12 +20,14 @@
 		text-align: center;
 		padding: 12px;
 	}
+	
 	nav a {
 		color: white;
 		text-decoration: none;
 		margin: 0 12px;
 		font-weight: bold;
 	}
+	
 	nav a:hover {
 		color: #00D18B;
 	}
@@ -45,26 +47,7 @@
 		font-size: 18px;
 	}
 	
-	.div1{
-		background-color: #2EFFB9;
-		max-width: 1200px;
-		margin: 25px auto;
-		margin-bottom: 18px;
-		padding: 20px;
-		border: 1px solid #cccccc;
-		border-radius: 8px;
-		
-		a{
-			color: black;
-			text-decoration: none;
-		}
-		
-		a:hover {
-			color: #00754E;
-		}
-	}
-	
-	.div2{
+	div{
 		background-color: #2EFFB9;
 		max-width: 1200px;
 		margin: 25px auto;
@@ -88,7 +71,62 @@
 	background-color: #7FFFD4;
 	margin: 0;
 	
-	.div1{
+	header {
+		background-color: #00A36D;
+		color: white;
+		text-align: center;
+		padding: 25px;
+		position: relative;
+	}
+	
+	header h1 {
+		margin: 0;
+	}
+	
+	nav {
+		background-color: #00754E;
+		text-align: center;
+		padding: 12px;
+	}
+	
+	nav a {
+		color: white;
+		text-decoration: none;
+		margin: 0 12px;
+		font-weight: bold;
+	}
+	
+	nav a:hover {
+		color: #00D18B;
+	}
+	
+	.banner {
+		background-color: #00D18B;
+		text-align: center;
+		padding: 55px 20px;
+		color: white;
+		
+		a {
+			color: white;
+			text-decoration: none;
+			margin: 0 12px;
+			font-weight: bold;
+		}
+		
+		a:hover {
+			color: #00A36D;
+		}
+	}
+	
+	.banner h2 {
+		font-size: 30px;
+	}
+	
+	.banner p {
+		font-size: 18px;
+	}
+	
+	div{
 		background-color: #2EFFB9;
 		max-width: 1200px;
 		margin: 25px auto;
@@ -112,7 +150,68 @@
 	background-color: #7FFFD4;
 	margin: 0;
 	
+	header {
+		background-color: #00A36D;
+		color: white;
+		text-align: center;
+		padding: 25px;
+		position: relative;
+	}
 	
+	header h1 {
+		margin: 0;
+	}
+	
+	nav {
+		background-color: #00754E;
+		text-align: center;
+		padding: 12px;
+	}
+	
+	nav a {
+		color: white;
+		text-decoration: none;
+		margin: 0 12px;
+		font-weight: bold;
+	}
+	
+	nav a:hover {
+		color: #00D18B;
+	}
+	
+	.banner {
+		background-color: #00D18B;
+		text-align: center;
+		padding: 55px 20px;
+		color: white;
+	}
+	
+	.banner h2 {
+		font-size: 30px;
+	}
+	
+	.banner p {
+		font-size: 18px;
+	}
+	
+	div{
+		background-color: #2EFFB9;
+		max-width: 1200px;
+		margin: 25px auto;
+		margin-bottom: 18px;
+		padding: 20px;
+		border: 1px solid #cccccc;
+		border-radius: 8px;
+		
+		a{
+			color: black;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #00754E;
+		}
+	}
 }
 
 .Formulario{
@@ -123,6 +222,11 @@
 }
 
 .home{
+	text-align: left;
+	position: absolute; /* Saca la imagen del flujo normal para moverla libremente */
+	left: 25px;
+	top: 50%;           /* La baja hasta la mitad del header */
+	transform: translateY(-50%); /* La centra verticalmente de forma exacta */
 	width: 60px;
 	height: auto;
 }
