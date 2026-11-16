@@ -22,6 +22,7 @@
 				<!-- Campo de Nombre -->
 				<div>
 					<label for="nombre">Nombre:</label>
+					
 					<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required>
 				</div>
 				
@@ -30,7 +31,23 @@
 				<!-- Campo de Correo Electrónico -->
 				<div>
 					<label for="email">Correo electrónico:</label>
+					
 					<input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+				</div>
+				
+				<br>
+				
+				<div>
+					<label for="motivo">Motivo del mensaje:</label>
+					
+					<select id="motivo" name="motivo">
+						<option value="" disabled selected>-- Elija una opción --</option>
+						<option value="queja">Quejas</option>
+						<option value="sugerencia">Sugerencias</option>
+						<option value="errores">Errores</option>
+						<option value="correcciones">Correcciones</option>
+						<option value="otros">Otros</option>
+					</select>
 				</div>
 				
 				<br>
@@ -38,7 +55,22 @@
 				<!-- Campo de Mensaje -->
 				<div>
 					<label for="mensaje">Mensaje:</label>
+					
 					<textarea id="mensaje" name="mensaje" rows="2" placeholder="Escribe tu mensaje..." required></textarea>
+				</div>
+				
+				<br>
+				
+				<div>
+					<label for="dispositivo">Dispositivo actual:</label>
+					
+					<select id="dispositivo" name="dispositivo">
+						<option value="" disabled selected>-- Elija una opción --</option>
+						<option value="computadora">Computadora</option>
+						<option value="telefono">Celular</option>
+						<option value="tablet">Tablet</option>
+						<option value="otros">Otros</option>
+					</select>
 				</div>
 				
 				<br>
