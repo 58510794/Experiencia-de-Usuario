@@ -215,10 +215,45 @@
 }
 
 .Formulario{
-	background-color: white;
+	background-color: #7FFFD4;
 	margin: 0;
+	text-align: center;
 	
+	header {
+		background-color: #00A36D;
+		color: white;
+		text-align: center;
+		padding: 25px;
+		position: relative;
+	}
 	
+	header h1 {
+		margin: 0;
+	}
+	
+	label{
+		display: block;
+		margin-bottom: 5px; /* Deja un pequeño espacio entre el texto y el cuadro */
+	}
+	
+	.form{
+		background-color: #2EFFB9;
+		max-width: 1200px;
+		margin: 25px auto;
+		margin-bottom: 18px;
+		padding: 20px;
+		border: 1px solid #cccccc;
+		border-radius: 8px;
+		
+		a{
+			color: black;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #00754E;
+		}
+	}
 }
 
 .home{
