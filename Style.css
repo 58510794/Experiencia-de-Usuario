@@ -231,9 +231,19 @@
 		margin: 0;
 	}
 	
-	label{
-		display: block;
-		margin-bottom: 5px; /* Deja un pequeño espacio entre el texto y el cuadro */
+	.banner {
+		background-color: #00D18B;
+		text-align: center;
+		padding: 55px 20px;
+		color: white;
+	}
+	
+	.banner h2 {
+		font-size: 30px;
+	}
+	
+	.banner p {
+		font-size: 18px;
 	}
 	
 	.form{
@@ -252,6 +262,11 @@
 		
 		a:hover {
 			color: #00754E;
+		}
+		
+		label{
+			display: block;
+			margin-bottom: 5px; /* Deja un pequeño espacio entre el texto y el cuadro */
 		}
 	}
 }
